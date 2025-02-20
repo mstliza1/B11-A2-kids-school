@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font-style {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color:rgb(254, 163, 1) ;
+    border: none;
+    border-radius:12px ;
+    color: white;
+    padding: 10px;
+    font-weight:600px;
+    font-size: 1.25rem;
+    width:150px;
+    height: 50px;
+    /* margin-top: 10px; */
+}
+/* navbar related style share  */
+.school{
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0px 100px;
+}
+.school-img{
+    height: 62px;
+    width: 62px;
+}
+.school-title{
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-top: 20px;
+
+}
+.school-links{
+gap: 50px;
+}
+.school-list{
+list-style: none;
+font-size: 20px;
+font-weight: 500px;
+}
+.school-link{
+text-decoration: none;
+color:gray;
+
+}
+/* span related style  */
+.home-span{
+    color: rgb(254, 163, 1);
+}
+.about-span{
+    color: rgb(1, 172, 253);
+}
+.facilities-span{
+    color:rgb(5, 212, 223) ;
+}
+.admision-span{
+    color:rgb(93, 88, 239) ;
+}
+/* hero section related style start */
+.hero{
+    max-width: 1240px;
+    border: 2px solid black;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+.hero-section{
+    width:50% ;
+  align-items: center;
+  justify-content:center;
+  margin: auto auto;
+    border: 2px solid black;
+    
+}
+.hero-img{
+    
+}
+
