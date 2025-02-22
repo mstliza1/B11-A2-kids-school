@@ -51,6 +51,11 @@ text-decoration: none;
 color:gray;
 
 }
+.school-menu {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
 /* span related style  */
 .home-span{
     color: rgb(254, 163, 1);
@@ -67,19 +72,348 @@ color:gray;
 /* hero section related style start */
 .hero{
     max-width: 1240px;
-    border: 2px solid black;
+    margin: 0px 100px;
+    gap: 175px;
     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
 }
 .hero-section{
-    width:50% ;
-  align-items: center;
-  justify-content:center;
-  margin: auto auto;
-    border: 2px solid black;
-    
+    width:100% ;
+   /* margin: 120px 0px;    */
+}
+.hero-title{
+    font-size: 3rem;
+    font-weight:700px;
+     line-height:50px ;
+}
+.hero-description{
+    font-size: 1.25rem;
+   line-height: 25px;
+}
+.btn-secondary{
+    background-color: black;
+    color: white;
+    padding:10px;
+    text-align: center;
+    width:160px;
+    height:50px;
+    border-radius:12px;
+    font-size:1.25rem;
+    font-weight: 700px;
 }
 .hero-img{
+    height:500px;
+    width: 350px;
+}
+/* curriculum section related style */
+.carriculum-container{
+    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin:50px 50px;
     
 }
+h1{
+    font-size:2.8rem;
+    font-weight: 700px;
+    text-align: center;
+}
+.curriculum-container1{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+.curriculum-container2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+   background:  linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   border-radius: 18.86px;
+   /* padding: 30px 70px; */
+}
+.curriculum-container3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 18.86px;
+    /* padding: 30px 70px; */
+ }
+.img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    padding:20px 110px;  
+}
+.curriculum-title{
+    font-size: 1.50rem;
+    text-align: center;
+}
+.curriculum-description{
+    text-align: center;
+    font-size:1rem;
+    color: rgb(128, 128, 128);
+    line-height:25px;
+    padding: 10px 30px;  
+}
+.kinder-btn{
+    font-size:1rem;
+    font-weight:700px;
+    border: none;
+    color:rgb(100, 200, 255);
+    background: none;
+    padding-left: 140px;
+    margin-bottom: 60px; 
+}
+.elementary-btn{
+font-size:1rem;
+font-weight:700px;
+border: none;
+color: rgb(240, 170, 0);
+background: none;
+padding-left: 140px;
+margin-bottom: 60px;
+}
+.years-btn{
+    font-size:1rem;
+    font-weight:700px;
+    border: none;
+    color:rgb(135, 0, 255);
+    background: none;
+    padding-left: 140px;
+    margin-bottom: 60px;
+    }
+ /*our stories related style start  */
+ .stories-section{
+    gap:30px;
+    padding:20px;
+   margin: 0px auto;
+   max-width:1240px;
+ }
+ .our-container{
+    background-color:rgb(247, 247, 247);
+    border-radius: 16px;
+    margin: 0px auto;
+    padding:10px;
+ }
+ .our-container img{
+    border-radius: 16px;
+    width:100%;
+    height:auto;
+ }
+.stories-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+.stories-image{
+    background-color: white;
+    border-radius: 16px;
+    padding:4px;
+  text-align: center;
+}
+.stories-image img{
+border-radius: 16px;
+width: 100%;
+height: 250px;
 
+}
+.content{
+    padding:22px;
+    text-align: center;
+}
+/* button related style  */
+.btn-date{
+     border-radius: 47px;
+    background: rgb(60, 216, 232);
+    padding:15px 30px;
+    font-size:1rem;
+    color: white;
+    font-weight:500px;
+    border:none;
+    margin-left:-400px; 
+}
+.date{
+    border-radius: 47px;
+    background: rgb(60, 216, 232);
+    padding:5px 10px;
+    height: 30px;
+    font-size:1rem;
+    color: white;
+    font-weight:500px;
+    border:none;
+    margin-left:-50px;
+    margin-top:-800px;
+}
+
+.btn-our{
+    background-color: black;
+    color: white;
+    padding:10px;
+    text-align: center;
+    width:160px;
+    height:50px;
+    border-radius:12px;
+    font-size:1.25rem;
+    font-weight: 700px;
+    margin: 80px 500px;
+}
+/* footer related style  */
+.footer {
+    background-color: rgb(1, 172, 253);
+    color: white;
+    padding: 40px 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    max-width: 1240px;
+    margin: auto;
+}
+.footer-left {
+    max-width: 300px;
+}
+.footer-logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.footer-left h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-left span {
+    font-weight: bold;
+}
+.footer-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.footer-middle h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-middle li {
+    margin-bottom: 5px;
+}
+.footer-middle a {
+    text-decoration: none;
+    color: white;
+}
+.social-icons a {
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+@media screen and (max-width:576px){
+    .school{
+        margin:0px auto;
+    }
+        .school-links{
+            display: none;
+        }
+        .school-menu{
+            display: block;
+           margin-bottom:55px;
+           padding:20px;
+           margin-left: 90px;
+        }
+
+    .hero{
+             flex-direction: column-reverse;
+             align-items: center;
+            width: screen;
+             margin: 0px;
+    }
+    h1{
+        font-size:2rem;
+    }
+    .hero-section{
+        width:100%;
+         margin-top: -120px;
+        text-align: center;
+    }
+    .hero-img{
+        align-items: center;
+        justify-content: center;   
+    }
+    .hero-title{
+        width: 100%;
+        line-height: 30px;
+        font-size: 2rem;
+        /* border: 2px solid black; */
+    }
+    .hero-description{
+        text-align: justify;
+        font-size:1rem;
+    }
+
+/* 3 ta card er responsive related style  */
+ .container{
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+ }
+.carriculum-container{
+margin-top:60px;
+ }
+ /* curriculum responsive related style  */
+ .our-container{
+display: none;
+ }
+ .stories-section {
+    flex-direction: column;
+ }
+ .stories-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+ }
+ .carriculum-container{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+ }
+ .stories-image{
+   width:100%;
+ }
+ .btn-our{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+ }
+/* footer related responsive */
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.footer-left, .footer-middle, .footer-right {
+    margin-bottom: 20px;
+}
+.social-icons a {
+    font-size: 16px;
+    margin: 5px;
+}
+}
